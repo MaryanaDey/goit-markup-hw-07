@@ -1,0 +1,105 @@
+.page-header{
+    display: flex;
+    position: fixed;
+    width: 100%; 
+    top: 0;
+    left: 0;
+  
+    background-color: #fff;
+    align-items: center;
+    z-index: 9999; 
+    align-items: center;
+    min-height: 80px;
+  }
+  
+  .main-nav {
+    display: flex;
+    background-color: --while-color;
+    align-items: center;
+  }
+  
+  
+  .nav-list {
+    display: flex;
+    margin-left: 93px;
+    justify-content: center;
+    transition:background-color  250ms cubic-bezier(0.4, 0, 0.2, 1);
+  }
+  
+  .nav-list .item {
+    margin-right: 50px;
+    color: var(--grey-color);
+    transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  }
+  
+  .nav-list .link:hover,
+  .nav-list .link:focus,
+  .nav-list .item .current,
+  .auth-list .item:hover,
+  .auth-list .item:focus{
+    color: var(--pretty-color);  
+  }
+  
+  .nav-list .link{
+    position: relative;
+    transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  }
+  
+  .nav-list .item .current::after,
+  .nav-list .link:hover::after {
+    display: block;
+    content: "";
+    position: absolute;
+    width: 100%;
+    height: 4px;
+    background-color: #2196f3;
+    border-radius: 2px;
+    margin-top: 30px;
+  }
+  
+  .nav-list .item:last-child {
+    margin-right: 0;
+  }
+  
+  .nav-list .link {
+    display: block;
+    padding-top: 32px;
+    padding-bottom: 32px;
+    color:var(--pretty-color);
+  }
+  
+  .nav-list-button {
+    display: flex;
+    margin-bottom: 56px;
+    padding-top: 100px;
+    justify-content: center;
+  }
+  
+  .auth-list .mail:hover,
+  .auth-list .mail:focus,
+  .auth-list .phone:hover,
+  .auth-list .phone:focus {
+    color: var(--pretty-color);
+  }
+  
+  .envelopeo-svg,
+  .smartphone-svg{
+    fill: currentColor;
+    margin-right: 10px;
+  }
+  
+  .auth-list {
+    display: flex;
+    margin-left: auto;
+  }
+  
+  .auth-list .item {
+    display: flex;
+    align-items: center;
+    color: var(--grey-color);
+    transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  }
+  
+  .auth-list .item + .item {
+    margin-left: 50px;
+  }

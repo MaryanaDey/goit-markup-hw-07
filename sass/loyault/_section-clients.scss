@@ -1,0 +1,36 @@
+.section-clients {
+    padding: 94px 0;
+  }
+  
+  .clients {
+    display: flex;
+    fill: #AFB1B8;
+    margin-top: 50px;
+  }
+  
+  .my-client {
+    display: flex;
+    width: 170px;
+    height: 92px;
+    
+    border: 1px solid #AFB1B8;
+    border-radius: 4px;
+    transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1) ;
+  }
+  
+  .my-client:not(:last-child){
+    margin-right: 30px;
+  }
+  
+  .my-client:hover {
+    border-color:var(--pretty-color); 
+    
+  }
+  
+  .my-client:nth-child(6n){
+    margin-bottom: 0;
+  }
+  
+  .clients .client-svg:hover{
+    fill:var(--pretty-color);
+  }

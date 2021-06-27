@@ -25,3 +25,13 @@
     background-color: var(--light-blue);
     border: none;
   }
+  
+  .footer-sing-link {
+    display: flex;
+    width: 200px;
+    padding: 10px 29px;
+    /* margin-right: 0;   */
+    font-style: normal;
+    align-items: center;
+    text-align: center;  
+  }

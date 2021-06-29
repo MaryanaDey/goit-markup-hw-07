@@ -1,6 +1,6 @@
 .page-header{
     display: flex;
-    position: fixed;
+    // position: fixed;
     width: 100%; 
     top: 0;
     left: 0;
@@ -10,4 +10,5 @@
     z-index: 9999; 
     align-items: center;
     min-height: 80px;
+
   }

@@ -26,12 +26,27 @@
     border: none;
   }
   
+  .sign-section-one{
+    padding: 10px 32px;
+  } 
+  
   .footer-sing-link {
     display: flex;
     width: 200px;
     padding: 10px 29px;
-    /* margin-right: 0;   */
     font-style: normal;
     align-items: center;
     text-align: center;  
+  }
+
+
+  .footer-subscribe-btn {
+    display: flex;
+    width: 200px;
+    padding: 10px 29px;
+    margin-right: 0;  
+    font-style: normal;
+    align-items: center;
+    text-align: center;
+    height: 50px;
   }

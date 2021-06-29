@@ -1,15 +1,30 @@
-.address {
-  font-style: normal;
-}
-
 .footer {
-  background: var(--black-color);
+  background: var(--footer-color);
   padding: 60px 0;
 }
 
-.la {
+.footer-contanier {
   display: flex;
   align-items: baseline;
+}
+
+.address {
+  color: #FFFFFF;
+  font-style: normal;
+  font-family: inherit;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 1.71;
+  letter-spacing: 0.03em;
+}
+
+.footer-form {
+  margin-left: 93px;
+}
+
+.footer-form form {
+  display: flex;
 }
 
 .footer-adress {
@@ -43,13 +58,18 @@
   margin-left: 70px;
 }
 
-.footer-subscribe {
+.footer-subscribe-b {
   color: var(--while-color);
   font-weight: bold;
   font-size: 14px;
   line-height: 16px;
   letter-spacing: 0.03em;
   text-transform: uppercase;
+}
+
+.footer-subscribe {
+  display: flex;
+  align-items: baseline;
 }
 
 .icon-telegram {
@@ -77,14 +97,6 @@
   padding-top: 15px;
   padding-bottom: 15px;
   padding-left: 16px;
-}
-
-.footer-form {
-  margin-left: 93px;
-}
-
-.footer-form form {
-  display: flex;
 }
 
 .footer-input {

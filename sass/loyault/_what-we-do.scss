@@ -1,11 +1,25 @@
-.feature-list .work {
-  margin-right: var(--card-set-feature);
-  margin-top: 50px;
+.what-we-do {
+  padding-top: 94px;
+  padding-bottom: 94px;
 }
 
-.feature-list .work:nth-child(3n) {
-  margin-right: 0;
-}
+// .feature-list .work {
+//   margin-right: var(--card-set-feature);
+//   margin-top: 50px;
+// }
+
+.feature-list{ 
+    .work {
+      margin-right: var(--card-set-feature);
+      margin-top: 50px;}
+    .work:nth-child(3n){
+      margin-right: 0;
+    }
+  }
+  
+// .feature-list .work:nth-child(3n) {
+//   margin-right: 0;
+// }
 
 .work-meta{
   position: relative;

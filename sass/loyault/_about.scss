@@ -4,17 +4,40 @@
   }
   
   .feature-list {
-    display: flex;
+    &{
+      display: flex;  
+    }
+    &.item{
+         margin-right: var(--card-set-feature);
+    }
+    
   }
   
-  .feature-list .item {
-    margin-right: var(--card-set-feature);
-  }
-  
-  .feature-list .item:nth-child(4n) {
-    margin-right: 0;
-  }
-  
+  .feature-list  {
+    & .card{
+        margin-right: var(--card-set-feature);
+        margin-top: 50px;
+        padding-bottom: 30px;
+        
+        background: var(--while-color);
+        border-radius: 0px 0px 4px 4px;
+        transform: scale(1) ;  
+    }
+    & .card:hover{
+       box-shadow: var(--feature-card-shadow);
+       transform: scale(1.1);   
+    }
+}
+
+.feature-list {
+    & .card:nth-child(4n) {
+         margin-right: 0;
+    }
+    & .item:nth-child(4n){
+        margin-right: 0; 
+    }
+}
+      
   .feature-text {
     color: var(--grey-color);
     font-weight: normal;
@@ -22,25 +45,6 @@
     
     line-height: 1.714;
     letter-spacing: 0.03em;
-  }
-  
-  .feature-list .card {
-    margin-right: var(--card-set-feature);
-    margin-top: 50px;
-    padding-bottom: 30px;
-    
-    background: var(--while-color);
-    border-radius: 0px 0px 4px 4px;
-    transform: scale(1) ;
-  }
-  
-  .feature-list .card:hover {
-    box-shadow: var(--feature-card-shadow);
-    transform: scale(1.1);
-  } 
-  
-  .feature-list .card:nth-child(4n) {
-    margin-right: 0;
   }
   
   .feature-title {
@@ -83,3 +87,38 @@
   .kosmo .kosmo-svg:hover {
     fill:var(--pretty-color);
   }
+
+
+
+ // .feature-list .item:nth-child(4n) {
+  //   margin-right: 0;
+  // }
+
+ // .feature-list {
+  //   display: flex;
+  // }
+  
+  // .feature-list .item {
+  //   margin-right: var(--card-set-feature);
+  // }
+
+
+
+   // .feature-list .card {
+  //   margin-right: var(--card-set-feature);
+  //   margin-top: 50px;
+  //   padding-bottom: 30px;
+    
+  //   background: var(--while-color);
+  //   border-radius: 0px 0px 4px 4px;
+  //   transform: scale(1) ;
+  // }
+  
+  // .feature-list .card:hover {
+  //   box-shadow: var(--feature-card-shadow);
+  //   transform: scale(1.1);
+  // } 
+  
+ // .feature-list .card:nth-child(4n) {
+  //   margin-right: 0;
+  // }

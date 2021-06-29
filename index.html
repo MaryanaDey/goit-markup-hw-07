@@ -44,8 +44,8 @@
 <main>
   <section class="hero">
         <div class="contanier">
-        <h1 class="bisnes">Эффективные решения для <br>вашего бизнеса</h1>
-        <button class="sign-link" type="button"  data-open-modal>Заказать услугу</button>
+        <h1 class="bisnes">Эффективные решения <br>для вашего бизнеса</h1>
+        <button class="sign-link sign-section-one" type="button"  data-open-modal>Заказать услугу</button>
         </div>
     </section>
 
@@ -300,11 +300,11 @@
 
 <footer class="footer">
     <div class="contanier">
-      <div class="la">
+      <div class="footer-contanier">
 
         <div class="footer-logo">      
           <a class="logo" href="#"><span class="web">Web</span><span class="footer-studio">Studio</span></a> 
-          <address>
+          <address class="adress">
             <p class="footer-adress"> г. Киев, пр-т Леси Украинки, 26</p>
 
             <ul class="address-list">
@@ -346,18 +346,17 @@
         </div><!--join-footer-->
 
         <div class="footer-form">
-          <b class="footer-subscribe">Подпишитесь на рассылку</b>
-           <form>
+          <b class="footer-subscribe-b">Подпишитесь на рассылку</b>
+           <form class="footer-subscribe">
              <input type="email" name="user-email" placeholder="E-mail" class="footer-input">
+             <button type="submit" class="sign-link footer-subscribe-btn">Подписаться
+              <svg class="icon-telegram">
+                <use href="./images/icons/sprite.svg#icon-icontelegram"></use>
+              </svg> 
+             </button>
            </form>
-
-           <button type="submit" class="sign-link footer-sing-link">Подписаться
-            <svg class="icon-telegram">
-              <use href="./images/icons/sprite.svg#icon-icontelegram"></use>
-            </svg> 
-           </button>
-
         </div>
+
       </div><!--la-->
       </div> <!--contanier-->
     </footer>
@@ -379,7 +378,7 @@
             <div class="form-fild">
               <label class="form-fild-lable">Имя
                 <span class="form-fild-wrap">
-                  <input type="text" minlength="2" name="user-name" placeholder=" " autofocus class="modal-form-input"> 
+                  <input type="text" minlength="2" name="user-name" placeholder=" "  class="modal-form-input"> 
                   <span class="form-icon">
                     <svg class="client-svg modal-svg">
                       <use href="./images/icons/sprite.svg#icon-iconmen"></use>
@@ -396,7 +395,7 @@
               <input type="tel" pattern="[0-9]{3}-[0-9]{3}-[0-9]{2}-[0-9]{2}" name="user-phone"  placeholder=" " class="modal-form-input">
               <span class="form-icon">
                 <svg class="client-svg modal-svg">
-                  <use href="./images/icons/sprite.svg#icon-iconmen"></use>
+                  <use href="./images/icons/sprite.svg#icon-icontel"></use>
                 </svg> 
                </span>
               </span>
@@ -409,7 +408,7 @@
                 <input type="email" name="user-email" placeholder=" " class="modal-form-input">
                 <span class="form-icon">
                   <svg class="client-svg modal-svg">
-                    <use href="./images/icons/sprite.svg#icon-iconmen"></use>
+                    <use href="./images/icons/sprite.svg#icon-iconenvelope"></use>
                   </svg> 
                  </span>
                 </span>

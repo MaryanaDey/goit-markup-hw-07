@@ -1,28 +1,43 @@
+.footer {
+  background: var(--footer-color); ;
+  padding: 60px 0;
+}
+
+.footer-contanier {
+  display: flex;
+  align-items: baseline;
+}
+
 .address {
-    font-style: normal;
+  color: #FFFFFF;
+  font-style: normal;
+  font-family: inherit;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 1.71; 
+  letter-spacing: 0.03em;
+}
+  
+.footer-form{
+    margin-left: 93px;
   }
   
-  .footer {
-    background: var(--black-color);
-    padding: 60px 0;
-  }
-  
-  .la {
+.footer-form form {
     display: flex;
-    align-items: baseline;
+    // flex-direction: column;
   }
   
-  
-  .footer-adress {
-    color: var(--while-color);
-    margin-bottom: 9px;
-    margin-top: 20px;
+.footer-adress {
+  color: var(--while-color);
+  margin-bottom: 9px;
+  margin-top: 20px;
     
-    font-weight: normal;
-    font-size: 14px;
-    line-height: 1.171;
-    letter-spacing: 0.03em;
-    font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 1.171;
+  letter-spacing: 0.03em;
+  font-style: normal;
   }
   
   .contact-footer {
@@ -46,7 +61,7 @@
     margin-left: 70px;
   }
   
-  .footer-subscribe {
+  .footer-subscribe-b {
     color: var(--while-color);
     
     font-weight: bold;
@@ -56,6 +71,11 @@
     text-transform: uppercase;
   }
   
+  .footer-subscribe {
+    display: flex;
+    align-items: baseline;
+  }
+  
   .icon-telegram{
     width: 24px;
     height: 24px;
@@ -63,7 +83,6 @@
   }
   
   .join-footer-form {
-   
     display: block;
     width: 100%;
     padding: 0;
@@ -85,13 +104,6 @@
   }
   
   
-  .footer-form{
-    margin-left: 93px;
-  }
-  
-  .footer-form form {
-    display: flex;
-  }
   
   .footer-input{
     margin-right: 12px;

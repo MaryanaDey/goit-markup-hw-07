@@ -38,6 +38,17 @@
   font-style: normal;
 }
 
+.address {
+  color: #FFFFFF;
+  font-style: normal;
+  font-family: inherit;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 1.71;
+  letter-spacing: 0.03em;
+}
+
 .contact-footer {
   color: var(--light-grey);
   margin-bottom: 9px;

@@ -427,15 +427,8 @@ a {
 .card .icon-team {
   display: flex;
   margin: 0 auto;
-}
-
-.icon-team {
-  display: flex;
-  margin: 0 auto;
   padding-left: 32px;
   padding-right: 32px;
-  margin-left: 32px;
-  margin-right: 32px;
 }
 
 .icon-team .icon {
@@ -1053,6 +1046,17 @@ textarea:focus {
   line-height: 1.171;
   letter-spacing: 0.03em;
   font-style: normal;
+}
+
+.address {
+  color: #FFFFFF;
+  font-style: normal;
+  font-family: inherit;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 1.71;
+  letter-spacing: 0.03em;
 }
 
 .contact-footer {

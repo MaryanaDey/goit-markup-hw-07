@@ -124,13 +124,14 @@
   
   .form-icon {
     position: absolute;
-    display: flex;
+    // display: flex;
+    // align-items: center;
+    @extend %flex-align;
     width: 20px;
     height: 20px; 
     top: 50%;
     left: 14px;
     transform: translateY(-50%); 
-    align-items: center;
   }
   
    .checkbox-footer {

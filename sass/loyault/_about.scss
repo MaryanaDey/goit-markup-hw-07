@@ -1,6 +1,7 @@
 .about {
-    padding-top: 94px;
-    padding-bottom: 94px;
+  @extend  %padding;
+    // padding-top: 94px;
+    // padding-bottom: 94px;
   }
   
   .feature-list {
@@ -25,7 +26,7 @@
     }
     & .card:hover{
        box-shadow: var(--feature-card-shadow);
-       transform: scale(1.1);   
+      //  transform: scale(1.1);   
     }
 }
 

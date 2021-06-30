@@ -1,31 +1,64 @@
-.sign-link {
-    padding: 10px 32px;
+// .sign-link {
+//     padding: 10px 32px;
     
-    color: var(--while-color);
-    background: var(--blue-color);
-    font-family: inherit;
+//     color: var(--while-color);
+//     background: var(--blue-color);
+//     font-family: inherit;
     
-    font-weight: 700;
-    font-size: 16px;
-    line-height: 1.875;
-    letter-spacing: 0.06em;
+//     font-weight: 700;
+//     font-size: 16px;
+//     line-height: 1.875;
+//     letter-spacing: 0.06em;
     
-    cursor: pointer;
-    border-radius: 4px;
-    box-shadow: var(--sing-color);
-    border: none;
+//     cursor: pointer;
+//     border-radius: 4px;
+//     box-shadow: var(--sing-color);
+//     border: none;
   
-    transition: color, 
-    background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+//     transition: color, 
+//     background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+//   }
+  
+//   .sign-link:hover,
+//   .sign-link:focus {
+//     color: var(--while-color);
+//     background-color: var(--light-blue);
+//     border: none;
+//   }
+  
+
+  .sign-link {
+    & {
+      padding: 10px 32px;
+    
+      color: var(--while-color);
+      background: var(--blue-color);
+      font-family: inherit;
+      
+      font-weight: 700;
+      font-size: 16px;
+      line-height: 1.875;
+      letter-spacing: 0.06em;
+      
+      cursor: pointer;
+      border-radius: 4px;
+      box-shadow: var(--sing-color);
+      border: none;
+    
+      transition: color, 
+      background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+    }
+    &:hover,
+    &:focus{
+      color: var(--while-color);
+      background-color: var(--light-blue);
+      border: none;
+    }
   }
-  
-  .sign-link:hover,
-  .sign-link:focus {
-    color: var(--while-color);
-    background-color: var(--light-blue);
-    border: none;
-  }
-  
+
+
+
+
   .sign-section-one{
     padding: 10px 32px;
   } 

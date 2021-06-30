@@ -1,7 +1,7 @@
 .section-team {
     // padding-top: 94px;
     // padding-bottom: 94px;
-    @extend %padding
+    @extend %padding;
     background: var(--light-color);
   }
   

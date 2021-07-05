@@ -3,30 +3,31 @@
   padding-bottom: 94px;
 }
 
-// .feature-list .work {
-//   margin-right: var(--card-set-feature);
-//   margin-top: 50px;
-// }
 
-.feature-list{ 
-    .work {
+.what-we-do__item{
+  display: flex; 
+}
+
+
+.working-list{
+  &{
+    display: flex;  
+  } 
+    .working-list__card {
       margin-right: var(--card-set-feature);
       margin-top: 50px;}
-    .work:nth-child(3n){
+    .working-list__card:nth-child(3n){
       margin-right: 0;
     }
   }
-  
-// .feature-list .work:nth-child(3n) {
-//   margin-right: 0;
-// }
+
 
 .work-meta{
   position: relative;
   width: 100%;
 }
 
-.work-meta-text {
+.work-meta__text {
   color: var(--while-color);
   position: absolute;
   bottom: 0;

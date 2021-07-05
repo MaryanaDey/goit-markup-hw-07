@@ -8,38 +8,23 @@
     &{
       display: flex;  
     }
-    &.item{
+    &__item{
          margin-right: var(--card-set-feature);
     }
     
   }
-  
-  .feature-list  {
-    & .card{
-        margin-right: var(--card-set-feature);
-        margin-top: 50px;
-        padding-bottom: 30px;
-        
-        background: var(--while-color);
-        border-radius: 0px 0px 4px 4px;
-        transform: scale(1) ;  
-    }
-    & .card:hover{
-       box-shadow: var(--feature-card-shadow);
-      //  transform: scale(1.1);   
-    }
-}
+
 
 .feature-list {
     & .card:nth-child(4n) {
          margin-right: 0;
     }
-    & .item:nth-child(4n){
+    & .__item:nth-child(4n){
         margin-right: 0; 
     }
 }
       
-  .feature-text {
+  .feature-list__text {
     color: var(--grey-color);
     font-weight: normal;
     font-size: 14px;
@@ -48,7 +33,7 @@
     letter-spacing: 0.03em;
   }
   
-  .feature-title {
+  .feature-list__title {
     color: var(--black-color);
     margin-bottom: 10px;
     
@@ -59,10 +44,8 @@
     text-transform: uppercase;
   }
   
-  .clock-svg,
-  .plate-svg,
-  .planning-svg,
-  .kosmo-svg {
+  .feature-list__icon
+    {
     width:270px;
     height: 120px;
     margin-bottom: 30px;
@@ -72,54 +55,19 @@
     border-radius: 4px;
     transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
   }
-  
-  .plate .plate-svg:hover {
-    fill:var(--pretty-color);
-  }
-  
-  .clock .clock-svg:hover {
-    fill:var(--pretty-color);
-  }
-  
-  .planning .planning-svg:hover {
-    fill:var(--pretty-color);
-  }
-  
-  .kosmo .kosmo-svg:hover {
+
+
+  .feature-list__icon:hover {
     fill:var(--pretty-color);
   }
 
-
-
- // .feature-list .item:nth-child(4n) {
-  //   margin-right: 0;
-  // }
-
- // .feature-list {
-  //   display: flex;
-  // }
   
-  // .feature-list .item {
-  //   margin-right: var(--card-set-feature);
-  // }
 
+  .feature--list__item {
+    margin-right: 30px;
+  }
 
-
-   // .feature-list .card {
-  //   margin-right: var(--card-set-feature);
-  //   margin-top: 50px;
-  //   padding-bottom: 30px;
-    
-  //   background: var(--while-color);
-  //   border-radius: 0px 0px 4px 4px;
-  //   transform: scale(1) ;
-  // }
+  .feature--list__item:nth-child(4){
+  margin-right: 0;
+  }
   
-  // .feature-list .card:hover {
-  //   box-shadow: var(--feature-card-shadow);
-  //   transform: scale(1.1);
-  // } 
-  
- // .feature-list .card:nth-child(4n) {
-  //   margin-right: 0;
-  // }

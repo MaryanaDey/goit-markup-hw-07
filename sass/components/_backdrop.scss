@@ -1,4 +1,3 @@
-
 .is-hidden {
     opacity: 1; 
     transition: opacity 1s linear;
@@ -44,7 +43,7 @@
     0px 1px 1px rgba(0, 0, 0, 0.14), 0px 2px 1px rgba(0, 0, 0, 0.2);
   }
   
-  .modal-svg{
+  .modal__svg--icon{
     position: absolute;
     display: inline-block;
     width: 10px;
@@ -55,7 +54,7 @@
     color: #000000;
   }
   
-  .button-modal {
+  .modal__button {
     position: absolute;
     top: 8px;
     right: 8px;
@@ -68,10 +67,10 @@
     cursor: pointer;
   }
   
-  .button-modal:hover {
+  .modal__button:hover {
     fill: var(--pretty-color);
   }
   
-  .close-svg:hover {
+  .modal__svg:hover {
     fill: var(--pretty-color);
   }
